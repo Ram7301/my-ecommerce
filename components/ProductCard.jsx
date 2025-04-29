@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useCart } from '@/contexts/CartContext';
+import Image from 'next/image';
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
@@ -12,6 +13,8 @@ const ProductCard = ({ product }) => {
           <Image
             src={product.image}
             alt={product.name}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-contain h-full w-full p-4 transition-transform duration-300 hover:scale-105"
           />
         </div>

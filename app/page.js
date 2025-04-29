@@ -43,7 +43,7 @@ export default async function Home() {
             alt="Hero Image"
             src={"/images/s5.jpg"} // Placeholder image
             // src={products.data[0].images[0]}
-            o
+            
             className="rounded"
             width={450}
             height={450}
