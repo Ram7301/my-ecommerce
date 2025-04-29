@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center text-sm text-gray-400 py-4 border-t">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+          &copy; {new Date().getFullYear()} shopZone. All rights reserved.
         </div>
       </footer>
     );
