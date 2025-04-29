@@ -6,11 +6,11 @@ import { Carousel } from "@/components/carousel";
 
 export default async function Home() {
   const products = [
-    { id: 2, type:"laptops", category: "Electronics", name: "MacBook Air M3", price: 1299.99, image: "/images/macbookairm3.jpg" },
+    { id: 2, type:"laptops", category: "Electronics", name: "MacBook Air M3", price: 1299.99, image: "/images/macbookairm3.JPG" },
     
-    { id: 11, type:"men", category: "Clothing", name: "Men's Leather Jacket", price: 199.99, image: "/images/mens-leather-jacket.jpg" },
-    { id: 12, type:"women", category: "Clothing", name: "Women's Summer Dress", price: 79.99, image: "/images/womens-summer-dress.jpg" },
-    { id: 13, type:"kids", category: "Clothing", name: "Kids Hoodie", price: 39.99, image: "/images/kids-hoodie.jpg" },
+    { id: 11, type:"men", category: "Clothing", name: "Men's Leather Jacket", price: 199.99, image: "/images/mens-leather-jacket.JPG" },
+    { id: 12, type:"women", category: "Clothing", name: "Women's Summer Dress", price: 79.99, image: "/images/womens-summer-dress.JPG" },
+    { id: 13, type:"kids", category: "Clothing", name: "Kids Hoodie", price: 39.99, image: "/images/kids-hoodie.JPG" },
 
   
   ];
