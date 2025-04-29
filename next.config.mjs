@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['via.placeholder.com'],
+        domains: ['https://main.d109a5j74rx26i.amplifyapp.com'],
       },
 };
 
