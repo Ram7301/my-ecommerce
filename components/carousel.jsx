@@ -15,19 +15,20 @@ export const Carousel = ({ products }) => {
 
     return () => clearInterval(interval);
   }, [products.length]);
-
+  
   const currentProduct = products[current];
   const price = currentProduct?.default_price;
 
   return (
     <Card className="relative overflow-hidden rounded-lg shadow-md border-gray-300">
-      {currentProduct?.images && currentProduct.images[0] && (
-        <div className="relative h-80 w-full">
+      {currentProduct?.image && currentProduct.image && (
+        <div className="relative h-200 w-full">
           <Image
-            src={currentProduct.images[0]}
+            src={currentProduct.image}
             alt={currentProduct.name}
             layout="fill"
             objectFit="cover"
+            
             className="transition-opacity duration-500 ease-in-out"
           />
         </div>
@@ -36,9 +37,9 @@ export const Carousel = ({ products }) => {
         <CardTitle className="text-3xl font-bold text-white mb-2">
           {currentProduct?.name}
         </CardTitle>
-        {price && price.unit_amount && (
+        {price  && (
           <p className="text-xl text-white">
-            ${(price.unit_amount / 100).toFixed(2)}
+            ${(price).toFixed(2)}
           </p>
         )}
       </CardContent>
