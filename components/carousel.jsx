@@ -23,7 +23,7 @@ export const Carousel = ({ products }) => {
     <Card className="relative overflow-hidden rounded-lg shadow-md border-gray-300">
       {currentProduct?.image && currentProduct.image && (
         <div className="relative h-200 w-full">
-          <img
+          <Image
             src={currentProduct.image}
             alt={currentProduct.name}
        

@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
     <div className="rounded-2xl border shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
       <Link href={`/products/pro/${product.id}`} className="block">
         <div className="relative h-52 w-full bg-gray-100">
-          <img
+          <Image
             src={product.image}
             alt={product.name}
             className="object-contain h-full w-full p-4 transition-transform duration-300 hover:scale-105"
