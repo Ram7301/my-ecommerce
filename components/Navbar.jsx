@@ -6,7 +6,7 @@ import { useCart } from '@/contexts/CartContext';
 const categories = [
   {
     name: "Electronics",
-    href: "/products/electronics",
+    href: "",
     subcategories: [
       { name: "Phones", href: "/products/electronics/phones" },
       { name: "Laptops", href: "/products/electronics/laptops" },
@@ -15,7 +15,7 @@ const categories = [
   },
   {
     name: "Clothing",
-    href: "/products/clothing",
+    href: "",
     subcategories: [
       { name: "Men", href: "/products/clothing/men" },
       { name: "Women", href: "/products/clothing/women" },
@@ -24,7 +24,7 @@ const categories = [
   },
   {
     name: "Books",
-    href: "/products/books",
+    href: "",
     subcategories: [
       { name: "Fiction", href: "/products/books/fiction" },
       { name: "Non-fiction", href: "/products/books/non-fiction" },
